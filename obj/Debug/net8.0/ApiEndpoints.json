@@ -1,0 +1,120 @@
+[
+  {
+    "ContainingType": "GSI.WebApi.Controllers.GSIController",
+    "Method": "GetActiveUsersWithLogins",
+    "RelativePath": "GSI/GetActiveUsersWithLogins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GSI_WebApi.DB.Employee, GSI.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetActiveUsersWithLogins"
+  },
+  {
+    "ContainingType": "GSI.WebApi.Controllers.GSIController",
+    "Method": "GetDisabledUsers",
+    "RelativePath": "GSI/GetDisabledUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GSI_WebApi.DB.Employee, GSI.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetDisabledUsers"
+  },
+  {
+    "ContainingType": "GSI.WebApi.Controllers.GSIController",
+    "Method": "GetEmployeesFromBd",
+    "RelativePath": "GSI/GetEmployeesFromBd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetEmployeesFromBd"
+  },
+  {
+    "ContainingType": "GSI.WebApi.Controllers.GSIController",
+    "Method": "GetUsersByDepartment",
+    "RelativePath": "GSI/GetUsersByDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "department",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GSI_WebApi.DB.Employee, GSI.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetUsersByDepartment"
+  },
+  {
+    "ContainingType": "GSI.WebApi.Controllers.GSIController",
+    "Method": "GetUsersWithExpiringPasswords",
+    "RelativePath": "GSI/GetUsersWithExpiringPasswords",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GSI_WebApi.DB.Employee, GSI.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetUsersWithExpiringPasswords"
+  },
+  {
+    "ContainingType": "GSI.WebApi.Controllers.GSIController",
+    "Method": "SyncDbFromAd",
+    "RelativePath": "GSI/SyncDbFromAd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "SyncDbFromAd"
+  }
+]

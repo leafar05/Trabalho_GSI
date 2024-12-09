@@ -1,0 +1,6 @@
+@GSI.WebApi_HostAddress = http://localhost:5110
+
+GET {{GSI.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

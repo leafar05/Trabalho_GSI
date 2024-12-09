@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fOhSX8laJ6kQffuzHkFcqhxHDzu7kVqVJzR5rQXF0vg=",
+  "Source": "GSI.WebApi",
+  "BasePath": "_content/GSI.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
